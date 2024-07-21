@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="stylesheet" href="style.css">
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Personal Portfolio Website</title>
+</head>
+
+<body>
+    <!-- header design -->
+    <header>
+
+        <div class="header grid grid-two-cols ">
+
+            <a href="#" class="logo"><i class='bx bxl-xing'></i></a>
+
+            <nav class="navbar grid">
+
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="education.html">Education</a>
+                <a href="skills.html">Skills</a>
+                <a href="project.html">Projects</a>
+                <a href="contact.html">Contact</a>
+                <a id="thm-box"> <i class='bx bx-sun' id="theme"> </i> </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+    <!-- header design End -->
+    <main>
+        <!-- ========== Start Projects Section ========== -->
+
+        <section class="main-project">
+
+            <div class="heading" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <span> <span>My </span> <span class="heading-sty">Projects</span></span>
+            </div>
+
+            <div class="main-content-project grid grid-two-cols">
+
+                <div class="project-card" data-aos="fade-right">
+                        <h3>Real time chat Application</h3>
+                        <p>About: My real-time chat application is a dynamic and intuitive platform that transforms how users connect and communicate. Built using Swift, UIKit, and Firebase, this project showcases my expertise in iOS development and my ability to create responsive, real-time applications. 
+                        </p>
+                        <div class="btn-box">
+                             <a href="#">See</a>
+                        </div>
+                 </div>
+                 <div class="project-card" data-aos="fade-left" >
+                    <h3>TodoApp</h3>
+                    <p>My todoX app is a highly functional and visually appealing productivity tool designed to help users manage their tasks efficiently. Developed using Swift, SwiftUI, and Realm Database, this application demonstrates my ability to create intuitive and reliable applications that enhance user productivity.
+                    </p>
+                    <div class="btn-box">
+                         <a href="https://github.com/nitin-lodhi/TodoApp">See</a>
+                    </div>
+             </div>
+             <div class="project-card" data-aos="fade-right">
+                <h3>MapX Application</h3>
+                <p>Mapx is an innovative mapping application designed to provide users with an interactive and intuitive navigation experience. Developed using SwiftUI, MapKit, and MVVM architecture, this app demonstrates my ability to build complex, user-friendly applications that leverage advanced geolocation data.
+                </p>
+                <div class="btn-box">
+                     <a href="https://github.com/nitin-lodhi/MapX">See</a>
+                </div>
+         </div>
+         <div class="project-card" data-aos="fade-left">
+            <h3>Clima Application</h3>
+            <p>
+                Clima is a comprehensive weather application designed to provide users with accurate and up-to-date weather information. Developed using Swift and UIKit, this app showcases my ability to integrate third-party APIs and create visually appealing and user-friendly applications.
+            </p>
+            <div class="btn-box">
+                 <a href="https://github.com/nitin-lodhi/Clima">See</a>
+            </div>
+     </div>
+                 
+            </div>
+        </section>
+        
+        <!-- ========== End Projects Section ========== -->
+    
+    </main>
+
+    <!-- ========== Start footer section ========== -->
+    <footer>
+
+        <div class="top-btn" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+            <a href="#" id="top"> <i class='bx bxs-up-arrow-square'></i></a>
+        </div>
+
+        <div class="footer-item">
+
+            <div class="social-links">
+
+                <a href="https://www.linkedin.com/in/nitin-lodhi-b75604270/"> <i class='bx bxl-linkedin'></i> </a>
+                <a href="https://www.instagram.com/nitin_lodhi___/"> <i class='bx bxl-instagram-alt'></i> </i></a>
+                <a href="https://www.facebook.com/nitin.lodhi.90260"> <i class='bx bxl-facebook'></i></i></a>
+                <a href="https://twitter.com/nitin_lodhi____"><i class='bx bxl-twitter'></i></a>
+                <a href="https://github.com/nitin-lodhi"> <i class='bx bxl-github'></i></a>
+
+            </div>
+
+            <div class="para-footer">
+
+                <p> © Copyright 2024 Nitin Pvt. Ltd. All Rights Reserved.</p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- ========== End footer section ========== -->
+
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

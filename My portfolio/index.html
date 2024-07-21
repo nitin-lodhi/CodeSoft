@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Personal Portfolio Website</title>
+</head>
+
+<body>
+    <!-- header design -->
+    <header>
+
+        <div class="header grid grid-two-cols ">
+
+            <a href="#" class="logo" data-aos="fade-right"><i class='bx bxl-xing'></i></a>
+
+            <nav class="navbar grid" data-aos="fade-left">
+
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="education.html">Education</a>
+                <a href="skills.html">Skills</a>
+                <a href="project.html">Projects</a>
+                <a href="contact.html">Contact</a>
+                <a id="thm-box"> <i class='bx bx-sun' id="theme"> </i> </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+    <!-- header design End -->
+    <main>
+            <section class="main grid grid-two-cols">
+                <div class="main-content grid" data-aos="fade-right">
+                    <h1>Hi, I'm Nitin Lodhi</h1>
+                    <h3 id="ty-eff">
+                        <i class="fa-brands fa-apple"></i> iOS Developer
+                    </h3>
+                    <p>I am a dedicated iOS development student with a strong passion for creating innovative and user-friendly mobile applications. My journey in iOS development has equipped me with a solid foundation in Swift and SwiftUI, allowing me to develop applications that are both efficient and robust. I am proficient in utilizing MVVM architecture, ensuring that my applications are well-structured and maintainable.I am constantly exploring new advancements in iOS development to enhance my skill set and deliver cutting-edge solutions.</p>
+                    <div class="btn-box">
+
+                        <a href="contact.html">Hire me</a>
+                        <a href="https://www.instagram.com/nitin_lodhi___/">Let's Talk</a>
+
+                    </div>
+
+                </div>
+
+                <div class="main-img" data-aos="fade-left">
+                    <div class="hero-img">
+                           <img src="portfolioImages/person.png" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <div class="wave" data-aos="fade-up">
+
+                <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 310" version="1.1"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                            <stop stop-color="rgba(8, 27, 41, 0.94)" offset="0%"></stop>
+                            <stop stop-color="rgba(0, 171, 240, 1)" offset="100%"></stop>
+                        </linearGradient>
+                    </defs>
+                    <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+                        d="M0,155L26.7,149.8C53.3,145,107,134,160,118.8C213.3,103,267,83,320,103.3C373.3,124,427,186,480,206.7C533.3,227,587,207,640,191.2C693.3,176,747,165,800,175.7C853.3,186,907,217,960,222.2C1013.3,227,1067,207,1120,180.8C1173.3,155,1227,124,1280,93C1333.3,62,1387,31,1440,51.7C1493.3,72,1547,145,1600,155C1653.3,165,1707,114,1760,77.5C1813.3,41,1867,21,1920,25.8C1973.3,31,2027,62,2080,103.3C2133.3,145,2187,196,2240,227.3C2293.3,258,2347,269,2400,237.7C2453.3,207,2507,134,2560,118.8C2613.3,103,2667,145,2720,134.3C2773.3,124,2827,62,2880,77.5C2933.3,93,2987,186,3040,196.3C3093.3,207,3147,134,3200,103.3C3253.3,72,3307,83,3360,77.5C3413.3,72,3467,52,3520,67.2C3573.3,83,3627,134,3680,144.7C3733.3,155,3787,124,3813,108.5L3840,93L3840,310L3813.3,310C3786.7,310,3733,310,3680,310C3626.7,310,3573,310,3520,310C3466.7,310,3413,310,3360,310C3306.7,310,3253,310,3200,310C3146.7,310,3093,310,3040,310C2986.7,310,2933,310,2880,310C2826.7,310,2773,310,2720,310C2666.7,310,2613,310,2560,310C2506.7,310,2453,310,2400,310C2346.7,310,2293,310,2240,310C2186.7,310,2133,310,2080,310C2026.7,310,1973,310,1920,310C1866.7,310,1813,310,1760,310C1706.7,310,1653,310,1600,310C1546.7,310,1493,310,1440,310C1386.7,310,1333,310,1280,310C1226.7,310,1173,310,1120,310C1066.7,310,1013,310,960,310C906.7,310,853,310,800,310C746.7,310,693,310,640,310C586.7,310,533,310,480,310C426.7,310,373,310,320,310C266.7,310,213,310,160,310C106.7,310,53,310,27,310L0,310Z">
+                    </path>
+                    <defs>
+                        <linearGradient id="sw-gradient-1" x1="0" x2="0" y1="1" y2="0">
+                            <stop stop-color="rgba(8, 27, 41, 0.9411764705882353)" offset="0%"></stop>
+                            <stop stop-color="rgba(0, 171, 240, 1)" offset="100%"></stop>
+                        </linearGradient>
+                    </defs>
+                    <path style="transform:translate(0, 50px); opacity:0.9" fill="url(#sw-gradient-1)"
+                        d="M0,124L26.7,144.7C53.3,165,107,207,160,206.7C213.3,207,267,165,320,155C373.3,145,427,165,480,180.8C533.3,196,587,207,640,180.8C693.3,155,747,93,800,93C853.3,93,907,155,960,175.7C1013.3,196,1067,176,1120,180.8C1173.3,186,1227,217,1280,201.5C1333.3,186,1387,124,1440,103.3C1493.3,83,1547,103,1600,98.2C1653.3,93,1707,62,1760,82.7C1813.3,103,1867,176,1920,201.5C1973.3,227,2027,207,2080,180.8C2133.3,155,2187,124,2240,108.5C2293.3,93,2347,93,2400,108.5C2453.3,124,2507,155,2560,160.2C2613.3,165,2667,145,2720,139.5C2773.3,134,2827,145,2880,139.5C2933.3,134,2987,114,3040,87.8C3093.3,62,3147,31,3200,15.5C3253.3,0,3307,0,3360,31C3413.3,62,3467,124,3520,129.2C3573.3,134,3627,83,3680,67.2C3733.3,52,3787,72,3813,82.7L3840,93L3840,310L3813.3,310C3786.7,310,3733,310,3680,310C3626.7,310,3573,310,3520,310C3466.7,310,3413,310,3360,310C3306.7,310,3253,310,3200,310C3146.7,310,3093,310,3040,310C2986.7,310,2933,310,2880,310C2826.7,310,2773,310,2720,310C2666.7,310,2613,310,2560,310C2506.7,310,2453,310,2400,310C2346.7,310,2293,310,2240,310C2186.7,310,2133,310,2080,310C2026.7,310,1973,310,1920,310C1866.7,310,1813,310,1760,310C1706.7,310,1653,310,1600,310C1546.7,310,1493,310,1440,310C1386.7,310,1333,310,1280,310C1226.7,310,1173,310,1120,310C1066.7,310,1013,310,960,310C906.7,310,853,310,800,310C746.7,310,693,310,640,310C586.7,310,533,310,480,310C426.7,310,373,310,320,310C266.7,310,213,310,160,310C106.7,310,53,310,27,310L0,310Z">
+                    </path>
+                    <defs>
+                        <linearGradient id="sw-gradient-2" x1="0" x2="0" y1="1" y2="0">
+                            <stop stop-color="rgba(8, 27, 41, 0.9411764705882353)" offset="0%"></stop>
+                            <stop stop-color="rgba(0, 171, 240, 1)" offset="100%"></stop>
+                        </linearGradient>
+                    </defs>
+                    <path style="transform:translate(0, 100px); opacity:0.8" fill="url(#sw-gradient-2)"
+                        d="M0,155L26.7,155C53.3,155,107,155,160,149.8C213.3,145,267,134,320,155C373.3,176,427,227,480,253.2C533.3,279,587,279,640,237.7C693.3,196,747,114,800,98.2C853.3,83,907,134,960,155C1013.3,176,1067,165,1120,180.8C1173.3,196,1227,238,1280,242.8C1333.3,248,1387,217,1440,211.8C1493.3,207,1547,227,1600,211.8C1653.3,196,1707,145,1760,134.3C1813.3,124,1867,155,1920,186C1973.3,217,2027,248,2080,253.2C2133.3,258,2187,238,2240,232.5C2293.3,227,2347,238,2400,201.5C2453.3,165,2507,83,2560,82.7C2613.3,83,2667,165,2720,180.8C2773.3,196,2827,145,2880,134.3C2933.3,124,2987,155,3040,144.7C3093.3,134,3147,83,3200,87.8C3253.3,93,3307,155,3360,165.3C3413.3,176,3467,134,3520,118.8C3573.3,103,3627,114,3680,108.5C3733.3,103,3787,83,3813,72.3L3840,62L3840,310L3813.3,310C3786.7,310,3733,310,3680,310C3626.7,310,3573,310,3520,310C3466.7,310,3413,310,3360,310C3306.7,310,3253,310,3200,310C3146.7,310,3093,310,3040,310C2986.7,310,2933,310,2880,310C2826.7,310,2773,310,2720,310C2666.7,310,2613,310,2560,310C2506.7,310,2453,310,2400,310C2346.7,310,2293,310,2240,310C2186.7,310,2133,310,2080,310C2026.7,310,1973,310,1920,310C1866.7,310,1813,310,1760,310C1706.7,310,1653,310,1600,310C1546.7,310,1493,310,1440,310C1386.7,310,1333,310,1280,310C1226.7,310,1173,310,1120,310C1066.7,310,1013,310,960,310C906.7,310,853,310,800,310C746.7,310,693,310,640,310C586.7,310,533,310,480,310C426.7,310,373,310,320,310C266.7,310,213,310,160,310C106.7,310,53,310,27,310L0,310Z">
+                    </path>
+                    <defs>
+                        <linearGradient id="sw-gradient-3" x1="0" x2="0" y1="1" y2="0">
+                            <stop stop-color="rgba(8, 27, 41, 0.9411764705882353)" offset="0%"></stop>
+                            <stop stop-color="rgba(0, 171, 240, 1)" offset="100%"></stop>
+                        </linearGradient>
+                    </defs>
+                    <path style="transform:translate(0, 150px); opacity:0.7" fill="url(#sw-gradient-3)"
+                        d="M0,0L26.7,46.5C53.3,93,107,186,160,196.3C213.3,207,267,134,320,87.8C373.3,41,427,21,480,10.3C533.3,0,587,0,640,20.7C693.3,41,747,83,800,108.5C853.3,134,907,145,960,165.3C1013.3,186,1067,217,1120,206.7C1173.3,196,1227,145,1280,113.7C1333.3,83,1387,72,1440,77.5C1493.3,83,1547,103,1600,113.7C1653.3,124,1707,124,1760,144.7C1813.3,165,1867,207,1920,196.3C1973.3,186,2027,124,2080,124C2133.3,124,2187,186,2240,201.5C2293.3,217,2347,186,2400,180.8C2453.3,176,2507,196,2560,211.8C2613.3,227,2667,238,2720,227.3C2773.3,217,2827,186,2880,175.7C2933.3,165,2987,176,3040,175.7C3093.3,176,3147,165,3200,139.5C3253.3,114,3307,72,3360,93C3413.3,114,3467,196,3520,227.3C3573.3,258,3627,238,3680,237.7C3733.3,238,3787,258,3813,268.7L3840,279L3840,310L3813.3,310C3786.7,310,3733,310,3680,310C3626.7,310,3573,310,3520,310C3466.7,310,3413,310,3360,310C3306.7,310,3253,310,3200,310C3146.7,310,3093,310,3040,310C2986.7,310,2933,310,2880,310C2826.7,310,2773,310,2720,310C2666.7,310,2613,310,2560,310C2506.7,310,2453,310,2400,310C2346.7,310,2293,310,2240,310C2186.7,310,2133,310,2080,310C2026.7,310,1973,310,1920,310C1866.7,310,1813,310,1760,310C1706.7,310,1653,310,1600,310C1546.7,310,1493,310,1440,310C1386.7,310,1333,310,1280,310C1226.7,310,1173,310,1120,310C1066.7,310,1013,310,960,310C906.7,310,853,310,800,310C746.7,310,693,310,640,310C586.7,310,533,310,480,310C426.7,310,373,310,320,310C266.7,310,213,310,160,310C106.7,310,53,310,27,310L0,310Z">
+                    </path>
+                </svg>
+
+            </div>
+
+     
+
+        <section class="main-about">
+
+            <div class="main-content-about">
+                <div class="heading" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                    <span>About </span> <span class="heading-sty">Me</span>
+                </div>
+
+
+
+                <div class="hero-img2" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                    <img src="portfolioImages/person_rem.png" alt="">
+                </div>
+
+                <div id="ty-eff" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"> <h3 id="ty-eff">
+                    <i class="fa-brands fa-apple"></i> iOS Developer
+                </h3></div>
+
+                <div class="about-para" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                    <pr>As a dedicated iOS development student, I am driven by a passion for creating innovative and user-friendly mobile applications. My journey in the world of iOS development has equipped me with a strong proficiency in Swift and SwiftUI, enabling me to craft seamless and efficient applications. I specialize in utilizing MVVM architecture, ensuring that my applications are not only robust but also maintainable and scalable.I am committed to staying at the forefront of technology by continuously exploring new advancements and frameworks in iOS development. My approach is deeply user-centric, focusing on delivering exceptional experiences that exceed user expectations. I believe in the power of clean, efficient code and the importance of design in creating intuitive and engaging applications.
+                    </pr>
+                </div>
+
+                <div class="btn-box" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+
+                    <a href="https://drive.google.com/file/d/1cITTWDTlQ5yWm6xxaq2YD0M0lsnWHN_C/view?usp=sharing">Resume <i class="fa-solid fa-download"></i> </a>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="main-education">
+
+            <div class="heading" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+              <span> <span>My </span> <span class="heading-sty">Journey</span></span>
+            </div>
+        
+            <div class="main-content-education-upper">
+        
+              <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <h2>School</h2>
+              </div>
+        
+              <div class="education-content-upper grid-two-cols">
+        
+        
+        
+                <div class="study-card" data-aos="fade-right">
+        
+                  <div class="date">
+                    <i class='bx bxs-calendar'></i>
+                    <p>2019-2020</p>
+                  </div>
+                  <h3>Hight-School-96%</h3>
+        
+                  <p>Achieved an exceptional academic record, graduating with a remarkable 96% in the 10th class.
+                    Demonstrated a strong commitment to excellence and dedication to academic achievement.
+                    Developed effective time management and study skills that contributed to consistently high performance.</p>
+        
+                </div>
+        
+                <div class="study-card" data-aos="fade-left">
+        
+                  <div class="date">
+                    <i class='bx bxs-calendar'></i>
+                    <p>2020-2021</p>
+                  </div>
+                  <h3>Hight-Secondary-School-93%</h3>
+        
+                  <p> I have achieved a remarkable 93% in my 12th class exams. This significant milestone reflects my dedication, hard work, and passion for learning. Excelling in these exams required consistent effort and a strong understanding of the subjects, and I am proud to have reached this level of academic excellence.
+                    assignments.</p>
+        
+                </div>
+        
+        
+              </div>
+            </div>
+        
+              <div class="main-content-education-lower">
+        
+                <div data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                  <h2>College</h2>
+                </div>
+        
+                <div class="education-content-lower grid-two-cols">
+        
+                  <div class="study-card" data-aos="fade-right">
+        
+                    <div class="date">
+                      <i class='bx bxs-calendar'></i>
+                      <p>2021-2022</p>
+                    </div>
+                    <h3>B.tech(1st Year) - 7.72 CGPA</h3>
+        
+                    <p>Achieved a strong academic performance with a first-semester SGPA of 7.62 out of 10.Developed proficiency
+                      in programming languages such as [C++,Java,Python], enhancing coding and algorithmic skills.
+                      Actively participated in collaborative group projects, fostering teamwork, effective communication, and
+                      the ability to work in diverse environments.</p>
+        
+                  </div>
+        
+                  <div class="study-card" data-aos="fade-left">
+        
+                    <div class="date">
+                      <i class='bx bxs-calendar'></i>
+                      <p>2022-2023</p>
+                    </div>
+                    <h3>B.tech(2nd Year) - 8.05 CGPA</h3>
+                    <p>Maintained a strong academic record with an SGPA of 7.82 out of 10 in the second semester.
+                      Completed advanced coursework in Computer Science and Engineering, including [OOPS,DSA], further enhancing
+                      knowledge and skills in [WEB Development].
+                      Applied theoretical concepts to hands-on projects, such as [My portfolio Website and More], demonstrating
+                      practical problem-solving abilities and innovation.</p>
+        
+                  </div>
+    
+            </div>
+          </section>
+
+         <!-- ========= Start Skill Section ========== -->
+
+            <section class="main-skill">
+
+                <div class="heading" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                    <span> <span>My </span> <span class="heading-sty">Skills</span></span>
+                </div>
+
+                <div class="main-content-skills grid grid-four-cols">
+                         
+                    <div class="skill-card" data-aos="fade-right">
+                        <a href="#">
+                            <i class="fa-brands fa-swift"></i>
+                        </a>
+                        <div class="skill-name">
+                            <p>Swift</p>
+                        </div>
+
+                    </div>
+
+                    <div class="skill-card" data-aos="fade-right">
+                        <a href="#">
+                            <i class="fa-solid fa-database"></i>
+                        </a>
+                        <div class="skill-name">
+                            <p>Core Data</p>
+                        </div>
+
+                    </div>
+
+                    <div class="skill-card" data-aos="fade-left">
+                        <a href="#">
+                            <i class="fa-solid fa-fire"></i>
+                        </a>
+                        <div class="skill-name">
+                            <p>Firebase</p>
+                        </div>
+
+                    </div>
+
+                    <div class="skill-card" data-aos="fade-left" >
+                        <a href="#">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <div class="skill-name">
+                            <p>Github</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="main-content-skills grid grid-four-cols">
+                         
+                    <div class="skill-card" data-aos="fade-right" >
+                        <a href="#">
+                            <i class="fa-brands fa-uikit"></i>
+                        </a>
+                        <div class="skill-name">
+                            <p>UIkit</p>
+                        </div>
+
+                    </div>
+
+                    <div class="skill-card" data-aos="fade-right">
+                        <a href="#">
+                            <i class="fa-brands fa-swift"></i>
+                        </a>
+                        <div class="skill-name">
+                            <p>SwiftUI</p>
+                        </div>
+
+                    </div>
+
+                    <div class="skill-card" data-aos="fade-left">
+                        <a href="#">
+                            <i class="fa-brands fa-app-store-ios"></i>
+                        </a>
+                        <div class="skill-name">
+                            <p>XCode</p>
+                        </div>
+
+                    </div>
+
+                    <div class="skill-card" data-aos="fade-left">
+                        <a href="#">
+                            <i class="fa-solid fa-database"></i>
+                        </a>
+                        <div class="skill-name">
+                            <p>Realm</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+        <!-- ========= End Skill Section ========== -->
+
+        <!-- ========== Start Projects Section ========== -->
+
+        <section class="main-project">
+
+            <div class="heading" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <span> <span>My </span> <span class="heading-sty">Projects</span></span>
+            </div>
+
+            <div class="main-content-project grid grid-two-cols">
+
+                <div class="project-card" data-aos="fade-right">
+                        <h3>Real time chat Application</h3>
+                        <p>About: My real-time chat application is a dynamic and intuitive platform that transforms how users connect and communicate. Built using Swift, UIKit, and Firebase, this project showcases my expertise in iOS development and my ability to create responsive, real-time applications. 
+                        </p>
+                        <div class="btn-box">
+                             <a href="#">See</a>
+                        </div>
+                 </div>
+                 <div class="project-card" data-aos="fade-left" >
+                    <h3>TodoApp</h3>
+                    <p>My todoX app is a highly functional and visually appealing productivity tool designed to help users manage their tasks efficiently. Developed using Swift, SwiftUI, and Realm Database, this application demonstrates my ability to create intuitive and reliable applications that enhance user productivity.
+                    </p>
+                    <div class="btn-box">
+                         <a href="https://github.com/nitin-lodhi/TodoApp">See</a>
+                    </div>
+             </div>
+             <div class="project-card" data-aos="fade-right">
+                <h3>MapX Application</h3>
+                <p>Mapx is an innovative mapping application designed to provide users with an interactive and intuitive navigation experience. Developed using SwiftUI, MapKit, and MVVM architecture, this app demonstrates my ability to build complex, user-friendly applications that leverage advanced geolocation data.
+                </p>
+                <div class="btn-box">
+                     <a href="https://github.com/nitin-lodhi/MapX">See</a>
+                </div>
+         </div>
+         <div class="project-card" data-aos="fade-left">
+            <h3>Clima Application</h3>
+            <p>
+                Clima is a comprehensive weather application designed to provide users with accurate and up-to-date weather information. Developed using Swift and UIKit, this app showcases my ability to integrate third-party APIs and create visually appealing and user-friendly applications.
+            </p>
+            <div class="btn-box">
+                 <a href="https://github.com/nitin-lodhi/Clima">See</a>
+            </div>
+     </div>
+                 
+            </div>
+        </section>
+        
+        <!-- ========== End Projects Section ========== -->
+        
+    
+    </main>
+
+    <!-- ========== Start footer section ========== -->
+    <footer >
+
+        <div class="top-btn" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+            <a href="#" id="top"> <i class='bx bxs-up-arrow-square'></i></a>
+        </div>
+
+        <div class="footer-item" >
+
+            <div class="social-links" >
+
+                <a href="https://www.linkedin.com/in/nitin-lodhi-b75604270/"> <i class='bx bxl-linkedin'></i> </a >
+                <a href="https://www.instagram.com/nitin_lodhi___/"> <i class='bx bxl-instagram-alt'></i> </i></a>
+                <a href="https://www.facebook.com/nitin.lodhi.90260"> <i class='bx bxl-facebook'></i></i></a>
+                <a href="https://twitter.com/nitin_lodhi____"><i class='bx bxl-twitter'></i></a>
+                <a href="https://github.com/nitin-lodhi"> <i class='bx bxl-github'></i></a>
+
+            </div>
+
+            <div class="para-footer">
+
+                <p> © Copyright 2024 Nitin Pvt. Ltd. All Rights Reserved.</p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!-- ========== End footer section ========== -->
+
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
